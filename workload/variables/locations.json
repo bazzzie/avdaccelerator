@@ -145,7 +145,7 @@
         "timeZone": "Central Standard Time"
     },
     "northeurope": {
-        "acronym": "eun",
+        "acronym": "neu",
         "timeDifference": "0:00",
         "timeZone": "GMT Standard Time"
     },
@@ -250,7 +250,7 @@
         "timeZone": "Mountain Standard Time"
     },
     "westeurope": {
-        "acronym": "euw",
+        "acronym": "weu",
         "timeDifference": "+1:00",
         "timeZone": "Central Europe Standard Time"
     },

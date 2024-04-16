@@ -10,14 +10,14 @@ param avdManagementPlaneLocation = 'westeurope'
 param identityDomainName = 'dicecca.local' // value needs to be provided when using ADDS or EntraDS as identity service provider
 param avdIdentityServiceProvider = 'ADDS'
 param avdDomainJoinUserName = 'sediadmin@dicecca.local'
-param avdDomainJoinUserPassword = 'AHAHAAxxxxx'
+param avdDomainJoinUserPassword = 'WeMakeitsimple2013?!'
 param avdOuPath = 'OU=AVD,OU=DiCecca,DC=dicecca,DC=local'
 
 // Local Admin ON VMs
 param avdVmLocalUserName = 'avdadmin' // value needs to be provided
 param avdVmLocalUserPassword = 'GieFceJg6C4gTEgOhBpY' // value needs to be provided
 
-//Intune Enrollment
+//Infune Enrollment
 param createIntuneEnrollment = false
 
 // Security Group for FSLogix
@@ -46,7 +46,7 @@ param avdVnetworkAddressPrefixes = '10.10.0.0/23'
 param vNetworkAvdSubnetAddressPrefix = '10.10.0.0/24'
 param vNetworkPrivateEndpointSubnetAddressPrefix = '10.10.1.0/27'
 param customDnsIps = '10.20.2.5' // value needs to be provided when creating new AVD vNet and using ADDS or EntraDS identity service providers
-param createPrivateDnsZones = true
+param createPrivateDnsZones = false
 param avdVnetPrivateDnsZoneFilesId = '' // Not a mandatory parameter
 param avdVnetPrivateDnsZoneKeyvaultId = '' // Not a mandatory parameter
 param vNetworkGatewayOnHub = false
